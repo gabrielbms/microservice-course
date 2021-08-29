@@ -11,6 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @SpringBootApplication
 public class HrUserApplication implements CommandLineRunner {
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 
